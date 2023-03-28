@@ -1,0 +1,28 @@
+This Bike project utilizes:
+- Aggregation
+- Parameterized constructor
+- Interfaces inheritance
+- Wrapper class
+
+Trying to achieve in project:
+- Aggregation (Stated below)
+- Parameterized constructor to build a bike
+- Generic type safety to ensure that bike requirements to build is safe
+- Interfaces inheritance used for bikeLogic decision behavior
+- Wrapper class for encapsulating
+- Also this project maximized understanding about abstract class, interfaces, wrapper class and packages.
+Use of one method responsibility for cleaner code. and much more cleaner and neat way of writing code.
+
+***This project showcases the aggregation relationship between entity/objects***
+
+aggregation is like HAS-A
+// this is the contents of object created like in the example below
+Example:
+    Bike has a Tire
+    Bike has a Handle
+
+inheritance is like IS-A
+// this is the possible forms that object may take like in the example below
+Example:
+    Bike is a MountainBike
+    Bike is a FoldingBike
